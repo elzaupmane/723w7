@@ -4,10 +4,11 @@ alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
 
 code to create a parabola in Python:
-import.matplotlib.pyplot as plt
+```import.matplotlib.pyplot as plt
 %matplotlib inline
 x = [i for i in range(-101,101)]
 y = [i**2 for i in x)
 plt.plot(x,y)
 plt.figure(figsize=(15,15))
 plot show
+```
