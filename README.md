@@ -1,33 +1,13 @@
-# 723 week 7 class 1
-
-### Homework Task:
-* To have a good rest!
-* To publish a link to Webinar video source (Week 6)
-*   (Please, keep in mind: Page-> Image->Link->VideoSource)
-  
-* To present the code, used in the webinar, 
-  ```python
-  
-  # Example code:
-  # declare the variable A and define the value that is stored
-  A = 22
-  
-  '''
-  declare the function fun(.) with one parameter, namely b, 
-  visible ONLY inside the function body
-  '''
-  def fun(b):
-      print (b)
-      
-  # Invoke the function fun(.) with the A as the parameter   
-  fun(A) 
-  
-  ```
-* Reflect on the webinar of recent week applying the short convoying text.
-* In other words, just do the best! 
+<a href="https://drive.google.com/file/d/1wt9-sM6h0ctveiK4qMYSTZNuKrNfNmm6/view?usp=sharing
+" target="_blank"><img src="https://i.stack.imgur.com/sUF2m.png" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
 
-### BTW
-
-Follow the link to get more about the GIT:
-[![https://youtu.be/51LQJbGeOQo](https://zeroturnaround.com/wp-content/uploads/2016/02/Git-Cheat-Sheet-pdf-v2.png)](https://youtu.be/51LQJbGeOQo)
+code to create a parabola in Python:
+import.matplotlib.pyplot as plt
+%matplotlib inline
+x = [i for i in range(-101,101)]
+y = [i**2 for i in x)
+plt.plot(x,y)
+plt.figure(figsize=(15,15))
+plot show
